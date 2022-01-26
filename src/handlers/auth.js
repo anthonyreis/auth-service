@@ -38,6 +38,7 @@ export async function handler(event, context) {
     };
   } catch (error) {
     console.log(error);
+    
     throw 'Unauthorized';
   }
 };
